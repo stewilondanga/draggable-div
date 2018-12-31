@@ -115,12 +115,13 @@ body {
   animation: expand 4s ease-in-out infinite;
 }
 
-/*@-webkit-keyframes expand {
-	to {
-		width: 100%;
-	}
+@-webkit-keyframes expand {
+  to {
+    width: 100%;
+  }
 }
-@keyframes expand {
+
+/*@keyframes expand {
 	to {
 		width: 100%;
 	}
