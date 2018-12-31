@@ -36,24 +36,25 @@ body {
   background: -o-linear-gradient(left, #E100FF, #7F00FF);
   background: linear-gradient(to right, #E100FF, #7F00FF);
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  /*margin: 10px auto;
-	border-radius: 30px;
-	cursor: pointer;
+  margin: 10px auto;
+  border-radius: 30px;
+  cursor: pointer;
 }
+
 /* DRAGGABLE DIV END */
-  /*
+/*
 
 .heldOf {
 	background: #B2FEFA;
 	/* fallback for old browsers */
-  /*background: -webkit-linear-gradient(to right, #0ED2F7, #B2FEFA);
+/*background: -webkit-linear-gradient(to right, #0ED2F7, #B2FEFA);
 	/* Chrome 10-25, Safari 5.1-6 */
-  /*background: -webkit-gradient(linear, left top, right top, from(#0ED2F7), to(#B2FEFA));
+/*background: -webkit-gradient(linear, left top, right top, from(#0ED2F7), to(#B2FEFA));
 	background: -webkit-linear-gradient(left, #0ED2F7, #B2FEFA);
 	background: -o-linear-gradient(left, #0ED2F7, #B2FEFA);
 	background: linear-gradient(to right, #0ED2F7, #B2FEFA);
 	/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  /*	border-radius: 30px;
+/*	border-radius: 30px;
 }
 
 .dragged {
