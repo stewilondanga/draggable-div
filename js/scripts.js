@@ -32,11 +32,11 @@ class App {
     this.className = "box"
   }
 
-  /*    	static dragover(e) {
-      		e.preventDefault()
-      	}
+  static dragover(e) {
+    e.preventDefault()
+  }
 
-      	static dragenter(e) {
+  /*    	static dragenter(e) {
       		e.preventDefault()
       		this.className += " hoveredOf"
       	}
