@@ -89,14 +89,14 @@ body {
   transition: width .9s;
 }
 
-/*.box:hover::after {
-	width: 70%;
-	-webkit-transition: width 1.9s;
-	-o-transition: width 1.9s;
-	transition: width 1.9s;
+.box:hover::after {
+  width: 70%;
+  -webkit-transition: width 1.9s;
+  -o-transition: width 1.9s;
+  transition: width 1.9s;
 }
 
-
+/*
 .bar {
 	margin: 0;
 	height: 10px;
