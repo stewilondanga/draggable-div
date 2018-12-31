@@ -49,10 +49,10 @@ class App {
   }
 }
 
+
+document.addEventListener("DOMContentLoaded", App.init)
+
 /*
-      document.addEventListener("DOMContentLoaded", App.init)
-
-
 
 
       // VANISHING WHEN TRYING ON FIREFOX || THIS FUNCTION SHOULD FIX THE PROBLEM
