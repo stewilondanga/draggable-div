@@ -22,44 +22,44 @@ class App {
       container.addEventListener("drop", App.drop)
     }
   }
-  /*
-  	static dragstart() {
-  		this.className += " heldOf"
 
-  		setTimeout(() => this.className = "invisible", 0)
-  	}
-  	static dragend() {
-  		this.className = "box"
-  	}
+  static dragstart() {
+    this.className += " heldOf"
 
-  	static dragover(e) {
-  		e.preventDefault()
-  	}
-
-  	static dragenter(e) {
-  		e.preventDefault()
-  		this.className += " hoveredOf"
-  	}
-  	static dragleave() {
-  		this.className = "dragged"
-  	}
-  	static drop() {
-  		this.className = "dragged"
-  		this.append(App.box)
-  	}
+    setTimeout(() => this.className = "invisible", 0)
   }
+  /*  	static dragend() {
+    		this.className = "box"
+    	}
+
+    	static dragover(e) {
+    		e.preventDefault()
+    	}
+
+    	static dragenter(e) {
+    		e.preventDefault()
+    		this.className += " hoveredOf"
+    	}
+    	static dragleave() {
+    		this.className = "dragged"
+    	}
+    	static drop() {
+    		this.className = "dragged"
+    		this.append(App.box)
+    	}
+    }
 
 
-  document.addEventListener("DOMContentLoaded", App.init)
+    document.addEventListener("DOMContentLoaded", App.init)
 
 
 
 
-  // VANISHING WHEN TRYING ON FIREFOX || THIS FUNCTION SHOULD FIX THE PROBLEM
+    // VANISHING WHEN TRYING ON FIREFOX || THIS FUNCTION SHOULD FIX THE PROBLEM
 
-  // FOR FIREFOX ONLY ||
-  function dragstart_handler(ev) {
-   console.log("dragStart");
-   // Add the target element's id to the data transfer object
-   ev.dataTransfer.setData("text/plain", ev.target.id);
-  }
+    // FOR FIREFOX ONLY ||
+    function dragstart_handler(ev) {
+     console.log("dragStart");
+     // Add the target element's id to the data transfer object
+     ev.dataTransfer.setData("text/plain", ev.target.id);
+    }
