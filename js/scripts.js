@@ -36,11 +36,11 @@ class App {
     e.preventDefault()
   }
 
-  /*    	static dragenter(e) {
-      		e.preventDefault()
-      		this.className += " hoveredOf"
-      	}
-      	static dragleave() {
+  static dragenter(e) {
+    e.preventDefault()
+    this.className += " hoveredOf"
+  }
+  /*    	static dragleave() {
       		this.className = "dragged"
       	}
       	static drop() {
