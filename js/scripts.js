@@ -40,10 +40,10 @@ class App {
     e.preventDefault()
     this.className += " hoveredOf"
   }
-  /*    	static dragleave() {
-      		this.className = "dragged"
-      	}
-      	static drop() {
+  static dragleave() {
+    this.className = "dragged"
+  }
+  /*    	static drop() {
       		this.className = "dragged"
       		this.append(App.box)
       	}
