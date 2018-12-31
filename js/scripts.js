@@ -43,13 +43,13 @@ class App {
   static dragleave() {
     this.className = "dragged"
   }
-  /*    	static drop() {
-      		this.className = "dragged"
-      		this.append(App.box)
-      	}
-      }
+  static drop() {
+    this.className = "dragged"
+    this.append(App.box)
+  }
+}
 
-
+/*
       document.addEventListener("DOMContentLoaded", App.init)
 
 
