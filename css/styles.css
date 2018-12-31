@@ -76,19 +76,20 @@ body {
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
 }
 
-/*.box::after {
-	content: '';
-	display: block;
-	width: 0;
-	height: 4px;
-	background: lightgreen;
-	margin: 0 auto;
-	border-radius: 10px;
-	-webkit-transition: width .9s;
-	-o-transition: width .9s;
-	transition: width .9s;
+.box::after {
+  content: '';
+  display: block;
+  width: 0;
+  height: 4px;
+  background: lightgreen;
+  margin: 0 auto;
+  border-radius: 10px;
+  -webkit-transition: width .9s;
+  -o-transition: width .9s;
+  transition: width .9s;
 }
-.box:hover::after {
+
+/*.box:hover::after {
 	width: 70%;
 	-webkit-transition: width 1.9s;
 	-o-transition: width 1.9s;
