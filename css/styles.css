@@ -18,11 +18,12 @@ body {
 }
 
 /* MAIN CONTENT || CENTERING DIVS */
-/*#container {
-	text-align: center;
-	margin: 50px auto;
-	width: 100%;
+#container {
+  text-align: center;
+  margin: 50px auto;
+  width: 100%;
 }
+
 /* DRAGGABLE DIV */
 /*.box {
 	height: 390px;
